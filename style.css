@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 200px;
+}
+.menu-container{
+    background-color: aquamarine;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+}
+.home{
+    margin-left: 25px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+}
+.home:hover{
+    color: red;
+}
+.banner-photo{
+    width: 300px;
+}
+.banner-conainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    color: white;
+    background-image: url("./background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 50, 50));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titlee{
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 22px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(13, 13, 13);
+    background-color: rgb(248, 245, 244);
+}
+.title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.middle{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.tti{
+    font-size: 40px;
+}
+.service-conatainer{
+    padding: 50px;
+    background-image: url("./background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 50, 50));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.box{
+    width: 200px;
+    height: 310px;
+    box-shadow: 4px 4px 15px gray;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+
+}
+.icon{
+    width: 80px;
+    padding-bottom: 15px;
+}
+.des{
+    padding: 10px;
+
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-left: 40px; */
+}
+.tit2{
+    color: white;
+}
+footer{
+    background-color: rgb(22, 20, 20);
+    color: white;
+    line-height: 1.8rem;
+}
+.footer-con{
+    height: 60vh;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo-box{
+    width: 25%;
+}
+.ig{
+    width: 300px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.copy{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
